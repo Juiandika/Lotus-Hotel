@@ -282,7 +282,7 @@ color: #595260;
 
 @media screen and (max-width: 600px) {
   #header h1{
-    font-size: 3rem;
+    font-size: 300px;
     font-family: 'Allerta Stencil', sans-serif;
   }
 
