@@ -211,7 +211,7 @@ color: #595260;
 /* Pop up boooking section */
 
 .bookingpu{
-  display: block;
+  display: none;
   position: fixed;
   z-index: 1;
   left: 0;
