@@ -117,6 +117,10 @@ color: #595260;
   color: grey;
 }
 
+#service .card{
+  margin-top: 2%;
+}
+
 
 /* testimoni */
 #testimoni{
@@ -184,25 +188,25 @@ color: #595260;
 }
 
 
-/* footer */
-#footer{
+/* Contact Section */
+#contact{
   padding: 5% 0%;
   text-align: center;
 }
 
-#footer h1{
+#contact h1{
   font-size: 3rem;
   padding-bottom: 10px;
   font-weight: bold;
 }
 
-#footer h4{
+#contact h4{
   font-size: 2rem;
   padding-bottom: 10px;
   font-weight: bold;
 }
 
-#footer table{
+#contact table{
   width: 250px;
   margin: auto;
   height: 150px;
@@ -212,8 +216,8 @@ color: #595260;
   width: 50%;
 }
 
-/* realfooterwkwkwkwk */
-.real-footer{
+/* Footer Section */
+.footer{
   text-align: center;
   padding: 2%;
   color: white;
@@ -281,8 +285,21 @@ color: #595260;
 
 
 @media screen and (max-width: 600px) {
+
+/* header dan navbar */
+  #header{
+  background-color: black;
+  color: white;
+  padding: 5% 10% 10%;
+  background-image: url(../images/headerimage.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  }
+
   #header h1{
-    font-size: 300px;
+    font-size: 3rem;
     font-family: 'Allerta Stencil', sans-serif;
   }
 
@@ -295,9 +312,30 @@ color: #595260;
     padding-left: 0px;
   }
 
+.btn-increase{
+    margin: 3% 3% 0 0;
+    width: 120px;
+    font-size: 1rem;
+}
+
+  /* features  */
   .atas h1{
     font-size: 2rem;
     color: #595260;
+  }
+
+.fi{
+  width: 120px;
+}
+
+
+  /* Testimoni */
+  #testimoni{
+  margin: 5% 0;
+  }
+
+  #testimoni h2{
+    font-size: 1rem;
   }
 
   #testimoni p{
@@ -306,6 +344,9 @@ color: #595260;
     padding: 1% 0;
   }
 
+
+
+/* Booking content */
   .bookcont{
     background-color: #FF4848;
     position: relative;
@@ -313,4 +354,32 @@ color: #595260;
     width: 400px;
     top: 15%;
   }
+
+
+
+/* Contact */
+  #contact h1{
+    font-size: 2rem;
+    padding-bottom: 10px;
+    font-weight: bold;
+  }
+
+  #contact h4{
+    font-size: 1rem;
+    padding-bottom: 10px;
+    font-weight: bold;
+  }
+
+  #contact table{
+    width: 50%;
+  }
+
+  #contact h5{
+    font-size: 1rem;
+  }
+
+  #contact img{
+    width: 50%;
+  }
+
 }
